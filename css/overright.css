@@ -1,0 +1,155 @@
+/*************************************
+
+Template Name: Busika - Business Responsive HTML Template
+Author: zebtheme
+Version: 1.0
+Design and Developed by: zwebtheme
+
+NOTE: This is overright stylesheet of the template.
+
+****************************************/
+
+a{
+    color: #90c908;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+a:hover{text-decoration: none;color: #666;}
+
+.navbar-default {
+    background: none;
+    border: none;
+}
+
+.media-body {
+    width: auto;
+}
+
+.owl-carousel .owl-item img {
+    width: auto;
+    max-width: 100%;
+}
+
+.well {
+    background-color: #ffffff;
+    border: medium none;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    border-radius: 2px;
+}
+
+.well.well-hover {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0);
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.well.well-hover:hover {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.media-right,
+.media > .pull-right {
+    padding-left: 20px;
+}
+
+.media-left,
+.media > .pull-left {
+    padding-right: 20px;
+}
+
+.panel-default {
+    border: medium none;
+    box-shadow: 2px 2px 7px -2px #dddddd;
+    margin-bottom: 20px !important;
+    padding: 5px;
+}
+
+.panel-default > .panel-heading {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: transparent;
+}
+
+.panel {
+    border: medium none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.well.well-lg {
+    padding: 50px;
+}
+
+.form-control {
+    border-radius: 2px;
+    margin-bottom: 20px;
+    min-height: 40px;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    background: none;
+}
+
+/* Get Button style*/
+.btn{
+    border-radius:0px;
+    -moz-border-radius:0px;
+    -webkit-border-radius:0px;
+}
+.btn-default{}
+.btn-hero{}
+.btn-form{}
+.btn-property{
+    padding: 10px 25px;
+    text-decoration: none;
+    color: #90c908;
+    border: 1px solid #90c908;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.btn-property:hover{color: #fff;background: #90c908;}
+.btn-primary{
+    background: #90c908;
+    color: #fff;
+    border: 1px solid #90c908;
+}
+.btn-primary:hover{
+    background: #90c908;
+    color: #fff;
+    border-color: #90c908;
+}
+.btn-success{}
+.btn-info{}
+.btn-warning{}
+.btn-danger{}
+.btn-link{}
+.btn-lg{}
+.btn-sm{}
+.btn-xs{}
+
+.pagination{}
+.pagination li{margin: 0 3px;}
+.pagination li a{color: #90c908;font-family: 'Poppins', sans-serif;}
+.pagination .page-item:first-child .page-link{border-top-left-radius:0;border-bottom-left-radius: 0;}
+.pagination .page-item:last-child .page-link {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.pagination .page-item.active .page-link{background: #90c908;border-color: #83b40e;}
+.pagination li a:hover{color: #666;text-decoration: none;}
+
+.form-control{border-radius: 0px;background: transparent;border-color: #eaeaea;padding: 24px 12px;}
